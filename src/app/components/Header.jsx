@@ -32,7 +32,7 @@ const Navbar = () => {
     {
       name: "Partnership",
       id: "partnership",
-      subItems: [{ name: "Introducing Broker", href: "/" }],
+      subItems: [{ name: "Introducing Broker", href: "/ib-broker" }],
     },
     { name: "News/Blogs", href: "/news-blogs", id: "news-blogs" },
   ];
