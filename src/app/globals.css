@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  src: url("/fonts/ReadexPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  src: url("/fonts/ReadexPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  src: url("/fonts/ReadexPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  src: url("/fonts/ReadexPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Apply the font family globally */
+body {
+  @apply font-montserrat;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.container {
+  max-width: 1320px; /* Set your desired width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+  padding-left: 16px; /* Optional padding */
+  padding-right: 16px;
+}
+.inner-container {
+  max-width: 1100px; /* Set your desired width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+  padding-left: 16px; /* Optional padding */
+  padding-right: 16px;
+}
+.bg-gradient {
+  background: linear-gradient(to bottom, #080a62, #2a125f, #dc3d52);
+}
+.card-shadow {
+  box-shadow: #092638 8px 30px 28px -12px inset,
+    #0866a1 4px 18px 22px -16px inset;
+}
+
+.gray-text {
+  color: #a6aab1;
+}
+
+.new-carusal .slide{
+  opacity: .2;
+  transform: scale(0.8);
+}
+.new-carusal .selected{
+  opacity: 1;
+  transform: scale(1);
+}
