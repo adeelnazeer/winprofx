@@ -71,8 +71,8 @@ body {
   background: linear-gradient(to bottom, #080a62, #2a125f, #dc3d52);
 }
 .card-shadow {
-  box-shadow: #092638 8px 30px 28px -12px inset,
-    #0866a1 4px 18px 22px -16px inset;
+  box-shadow: #0d1821 8px 30px 28px -12px inset,
+  #133d4f 4px 18px 22px -16px inset;
 }
 
 .gray-text {

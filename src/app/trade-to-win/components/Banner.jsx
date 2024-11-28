@@ -6,14 +6,14 @@ const Banner = () => {
             <div className=" grid md:grid-cols-2 grid-cols-1 items-center gap-3">
                 {/* Text Section */}
                 <div className="flex flex-col md:items-start items-center text-center md:text-left">
-                    <h2 className="text-3xl md:text-5xl font-semibold text-[#54c2e8]">
-                        Unlock Amazing<br/> Rewards with<br/> Every Trade!
+                    <h2 className="text-3xl md:text-5xl font-semibold text-primary">
+                        <span className="text-white"> Unlock Amazing<br /></span> Rewards <span className=" text-white">with<br /> Every Trade!</span>
                     </h2>
                     <p className="text-base mt-2  italic">
-                        Achieve specific trading volumes in<br/> 30 days and claim incredible
+                        Achieve specific trading volumes in<br /> 30 days and claim incredible
                         prizes!
                     </p>
-                    <button className="mt-10 bg-white text-[#0b1c2d] font-semibold py-2 px-10 rounded-lg hover:bg-gray-200">
+                    <button className="mt-10 rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] bg-white text-whitefont-semibold py-2 px-10 hover:bg-gray-200">
                         Join Now
                     </button>
                 </div>

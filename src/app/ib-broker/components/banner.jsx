@@ -25,7 +25,7 @@ const IntroductoryBanner = () => {
                     Platform to enhance your trading success.
                 </p>
                 {/* Button */}
-                <button className="bg-[#4ac8f5] text-secondary font-semibold py-2 px-6 rounded-md hover:bg-[#37a6d8] transition">
+                <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] text-white py-2 px-6 hover:bg-[#37a6d8] transition">
                     Become a Partner
                 </button>
             </div>

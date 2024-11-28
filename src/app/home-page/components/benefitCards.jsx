@@ -27,7 +27,7 @@ const FeaturesGrid = () => {
                 {features.map((feature, index) => (
                     <div
                         key={index}
-                        className="relative group flex cursor-pointer flex-col items-center text-center bg-gradient-to-b from-[#034a77] via-[#0a2642] to-[#0d1428] p-6 rounded-2xl text-white overflow-hidden"
+                        className="relative group flex cursor-pointer flex-col items-center text-center bg-gradient-to-b from-[#132b3c] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl text-white overflow-hidden"
                     >
                         <img src={feature.icon} alt={feature.title} className="h-20 w-20" />
                         <h3 className="font-semibold text-lg">{feature.title}</h3>

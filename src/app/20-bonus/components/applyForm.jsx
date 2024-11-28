@@ -51,7 +51,7 @@ const ActivateBonusForm = () => {
                         />
                     </div>
                     <div className="text-center">
-                        <button className="bg-gradient-to-r min-w-52 font-semibold from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-3 px-10 rounded-lg hover:scale-105 transition-transform">
+                        <button className="bg-gradient-to-r min-w-52 font-semibold rounded-3xl border border-primary from-[#096180] to-[#0a4280] text-sm shadow-lg text-white py-3 px-10 hover:scale-105 transition-transform">
                             Submit
                         </button>
                     </div>
@@ -60,12 +60,12 @@ const ActivateBonusForm = () => {
             </div>
             <div className="md:mt-14 mt-8 max-w-2xl w-full text-center">
                 <p className="text-white font-semibold mb-8">Terms & Conditions Apply</p>
-                <div className="flex justify-center gap-3 md:flex-row flex-col px-6 py-3 rounded-2xl bg-gradient-to-r from-[#0d1428] via-[#0a2642] to-[#034a77]  items-center md:space-x-12">
+                <div className="flex justify-center gap-3 md:flex-row flex-col px-6 py-3 rounded-2xl bg-gradient-to-r from-[#133d4f] via-[#122330] to-[#0d1821]  items-center md:space-x-12">
                     <div className="text-sm text-white font-normal">
                         Offer Ends on 31st December, 2024
                     </div>
                     <button
-                        className="bg-primary text-[#0d1428] text-sm py-1 px-6 rounded-lg font-semibold shadow-lg transition"
+                        className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] text-white text-sm py-1 px-6 shadow-lg transition"
                     >
                         OPEN TO REVIEW T&C
                     </button>

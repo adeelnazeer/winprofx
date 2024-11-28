@@ -85,7 +85,7 @@ const AwardWinningExcellence = () => {
                             <div>
                                 <h3 className="text-xl font-semibold">{award.title}</h3>
                                 <p className="text-sm text-gray-300">{award.location}</p>
-                                <button className="bg-gradient-to-r mt-8 from-[#034a77] to-[#0c162b] text-white py-3 px-8 rounded-lg hover:shadow-lg transition-transform">
+                                <button className="bg-gradient-to-r mt-8 rounded-3xl border font-semibold border-primary from-[#096180] to-[#0a4280] text-white py-3 px-8 hover:shadow-lg transition-transform">
                                     View More
                                 </button>
                             </div>

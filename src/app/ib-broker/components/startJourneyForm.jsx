@@ -88,7 +88,7 @@ const StartJourneyForm = () => {
                         </label>
                     </div>
                     <div className="text-center">
-                        <button className="bg-gradient-to-r min-w-52 font-semibold from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-3 px-10 rounded-lg hover:scale-105 transition-transform">
+                        <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] min-w-52 text-sm shadow-lg text-white py-3 px-10 hover:scale-105 transition-transform">
                             Submit
                         </button>
                     </div>

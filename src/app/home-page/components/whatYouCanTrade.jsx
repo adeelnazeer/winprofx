@@ -5,7 +5,7 @@ const WhatYouCanTrade = () => {
         <div className="inner-container mx-auto md:py-12 py-4 items-center">
             <div className="text-center  w-full">
                 {/* Heading */}
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 text-left text-white">What You Can Trade?</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 text-left text-white">What You Can <span className=" text-primary">Trade?</span></h2>
                 <p className="text-sm text-white mb-12 text-left">
                     We're here to help during market volatility with WinproFX. You can trade on <br />
                     major markets across 3 asset classes, including FX, Metals, and CFDs.

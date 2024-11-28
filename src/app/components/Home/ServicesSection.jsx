@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = ({ title, para, amount, spread, commission }) => {
   return (
-    <div className="card-shadow mx-auto p-6 bg-gradient-to-r  from-[#041C32] to-[#044670] text-white rounded-2xl">
+    <div className="card-shadow mx-auto p-6 bg-gradient-to-r  from-[#0d1821] to-[#133d4f] text-white rounded-2xl">
       {/* Card Title */}
       <h2 className="text-2xl font-semibold">{title}</h2>
       <p className="text-sm mt-2 text-gray-300">
@@ -39,7 +39,7 @@ const Cards = ({ title, para, amount, spread, commission }) => {
 
       {/* Register Button */}
       <div className="mt-6 text-center">
-        <button className="w-full md:w-3/5  py-2 px-4 bg-white text-blue-900 font-semibold rounded hover:bg-gray-100 transition">
+        <button className="w-full md:w-3/5 rounded-3xl border border-primary bg-gradient-to-r from-[#096180] to-[#0a4280]  py-2 px-4 text-white font-semibold roundedtransition">
           Register
         </button>
       </div>

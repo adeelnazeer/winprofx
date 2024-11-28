@@ -3,7 +3,7 @@ import React from "react";
 const BonusWithdrawal = () => {
     return (
         <section className="inner-container mx-auto  text-white py-6">
-            <div className="bg-gradient-to-b from-[#034a77] via-[#0a2642] to-[#0d1428] md:p-12 p-8 rounded-2xl">
+            <div className="bg-gradient-to-b from-[#0d1821] via-[#122330] to-[#133d4f] md:p-12 p-8 rounded-2xl">
                 <h2 className="text-2xl md:text-3xl font-bold mb-3 text-primary">Bonus Withdrawal:</h2>
                 <p className="text-sm font-normal mb-4">
                     Clients may withdraw the bonus after meeting the required trading lot size, as determined by the formula below:

@@ -25,7 +25,7 @@ export default function RootLayout({
       </head>
       <body className={`antialiased`}>
         <Header />
-        <div className="bg-gradient-to-b from-[#0d1428] via-[#0a2642] to-[#034a77]">
+        <div className="bg-gradient-to-b from-[#0d1821] via-[#122330] to-[#133d4f]">
           {children}
         </div>
         <Footer />

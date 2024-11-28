@@ -3,12 +3,12 @@ import React from "react";
 const EasySteps = () => {
     return (
         <div className=" py-10 mx-auto inner-container">
-            <div className="bg-gradient-to-b p-8 rounded-2xl from-[#0d1428] via-[#0a2642] to-[#034a77] text-white">
+            <div className="bg-gradient-to-b p-8 rounded-2xl from-[#133d4f] via-[#122330] to-[#0d1821] text-white">
                 <div className="text-center mb-6">
                     <h2 className="text-2xl font-bold">
                         Start Your Journey of Success In
                     </h2>
-                    <h3 className="text-2xl font-bold text-primary">3 Easy Steps!</h3>
+                    <h3 className="text-2xl font-bold text-primary">3 <span className="text-white">Easy Steps!</span></h3>
                 </div>
 
                 <div className="mb-10">
@@ -32,10 +32,10 @@ const EasySteps = () => {
                                 </li>
                             </ul>
                             <div className="flex gap-4 mt-6">
-                                <button className="bg-gradient-to-r from-[#0466a3] to-[#002244] px-6 py-2 rounded-md text-sm font-medium hover:scale-105 transition-transform">
+                                <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] px-6 py-2 text-sm min-w-52 hover:scale-105 transition-transform">
                                     Open Live Account
                                 </button>
-                                <button className="bg-gradient-to-r from-[#01466a] to-[#002244] px-6 py-2 rounded-md text-sm font-medium hover:scale-105 transition-transform">
+                                <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] px-6 py-2 text-sm min-w-52 hover:scale-105 transition-transform">
                                     T&C
                                 </button>
                             </div>

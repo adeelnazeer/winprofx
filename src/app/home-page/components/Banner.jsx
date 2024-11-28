@@ -6,20 +6,20 @@ const Banner = () => {
             <div className="flex flex-col lg:flex-row items-center justify-between  ">
                 {/* Left Content */}
                 <div className="max-w-lg text-center lg:text-left">
-                    <h2 className="md:text-4xl text-2xl font-bold mb-4 text-primary leading-snug">
-                        Your Path To Profitable <br /> Trading Starts Here
+                    <h2 className="md:text-4xl text-2xl font-bold mb-4 text-white leading-snug">
+                        Your Path To <span className=" text-primary">Profitable </span><br /> Trading Starts Here
                     </h2>
                     <p className="text-lg mb-8">
                         WinproFX is a Globally Reputed Broker Offering Tightest Spreads, Lightning Fast Withdrawals, 300+ Tradable Instruments With Nanosecond Execution on Your Finger Tips.
                     </p>
                     <div className="flex flex-col gap-2 justify-center lg:justify-start">
                         <div>
-                            <button className="bg-gradient-to-r min-w-52 from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-3 px-10 rounded-lg hover:scale-105 transition-transform">
+                            <button className="bg-gradient-to-r min-w-52 rounded-3xl border font-semibold border-primary  from-[#096180] to-[#0a4280] text-sm shadow-lg text-white py-3 px-10 hover:scale-105 transition-transform">
                                 Open Account
                             </button>
                         </div>
                         <div>
-                            <button className="bg-gradient-to-r min-w-52 from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-3 px-10 rounded-lg hover:scale-105 transition-transform">
+                            <button className="bg-gradient-to-r min-w-52 rounded-3xl border font-semibold border-primary from-[#096180] to-[#0a4280] text-sm shadow-lg text-white py-3 px-10 hover:scale-105 transition-transform">
                                 Join Telegram
                             </button>
                         </div>

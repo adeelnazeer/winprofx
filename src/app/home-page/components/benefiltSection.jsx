@@ -16,7 +16,7 @@ const BenefitsSection = () => {
                     technology meet for your financial success.
                 </p>
                 {/* Button */}
-                <button className="bg-gradient-to-r from-[#034a77] to-[#0c162b] text-white py-3 px-8 rounded-lg hover:shadow-lg transition-transform">
+                <button className="bg-gradient-to-r rounded-3xl border font-semibold border-primary from-[#096180] to-[#0a4280] text-white py-3 px-8 hover:shadow-lg transition-transform">
                     Start Trading
                 </button>
                 <FeaturedCard />

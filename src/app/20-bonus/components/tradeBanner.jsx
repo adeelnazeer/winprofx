@@ -7,14 +7,14 @@ const TradeBanner = () => {
                 {/* Left Content */}
                 <div className="text-white text-center md:text-left w-full max-w-lg">
                     <h2 className="text-2xl  md:text-3xl text-primary font-bold">
-                        Trade Your Best and <br />
-                        Enjoy Hassle Free & <br />
+                        <span className="text-white">Trade Your Best and <br />
+                            Enjoy </span> Hassle Free <span className="text-white"> &  </span><br />
                         Instant Withdrawals!
                     </h2>
                     <p className="text-sm mt-2 italic font-normal">
                         Your comfort is our top priority.
                     </p>
-                    <button className="bg-gradient-to-r mt-8 from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-3 px-10 rounded-lg hover:scale-105 transition-transform">
+                    <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] text-sm shadow-lg text-white py-3 px-10 mt-8 hover:scale-105 transition-transform">
                         Ready to Start
                     </button>
                 </div>

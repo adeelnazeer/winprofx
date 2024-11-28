@@ -4,8 +4,8 @@ const HowToTrade = () => {
     return (
         <section className="inner-container mx-auto text-white py-12 px-4">
             <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-2xl md:text-3xl font-bold text-primary">
-                    How the Trade to Win Program Works?
+                <h2 className="text-2xl md:text-3xl text-white font-bold ">
+                    How the <span className="text-primary"> Trade to Win </span> Program Works?
                 </h2>
                 <p className="text-sm gray-text mt-4">
                     The more you trade, the bigger your reward! Reach specific trading

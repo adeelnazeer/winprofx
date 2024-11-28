@@ -11,19 +11,19 @@ const PartneringPerks = () => {
 
             {/* Perks Cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#05324f] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl shadow-md">
+                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#132b3c] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl">
                     <img className="w-9 h-9" src="/new-icons/ib-icon-02.svg" alt="" />
                     <p className="text-sm leading-tight mt-4">Commission up to <br /><span className="font-bold">80%</span> spread revshare</p>
                 </div>
-                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#05324f] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl shadow-md">
+                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#132b3c] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl">
                     <img className="w-9 h-9" src="/new-icons/ib-icon-03.svg" alt="" />
                     <p className="text-sm mt-4">Reputable Broker With <br /><span className="font-bold">40+</span> Industry awards</p>
                 </div>
-                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#05324f] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl shadow-md">
+                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#132b3c] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl">
                     <img className="w-9 h-9" src="/new-icons/ib-icon-04.svg" alt="" />
                     <p className="text-sm mt-4">Evolving everyday in the market</p>
                 </div>
-                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#05324f] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl shadow-md">
+                <div className="flex flex-col justify-end min-h-40 bg-gradient-to-b from-[#05324f] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl">
                     <img className="w-9 h-9 " src="/new-icons/ib-icon-05.svg" alt="" />
                     <p className="text-sm mt-4">Trade and Win <br /><span className="font-bold">Rewards</span> Everyday</p>
                 </div>

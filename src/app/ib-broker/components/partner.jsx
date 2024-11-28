@@ -4,7 +4,7 @@ import { FaUserTie, FaLink, FaDollarSign } from "react-icons/fa";
 const PartnerStepper = () => {
     return (
         <div className="inner-container mx-auto text-white pb-12">
-            <div className="bg-gradient-to-b from-[#034a77] via-[#0a2642] to-[#0b1120] rounded-2xl md:p-8 p-4 shadow-lg">
+            <div className="bg-gradient-to-b  from-[#162f40] to-[#0d1821] rounded-2xl md:p-8 p-4 shadow-lg">
                 {/* Title Section */}
 
                 <h2 className="text-xl md:text-2xl font-semibold mb-3">

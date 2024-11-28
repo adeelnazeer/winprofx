@@ -35,7 +35,7 @@ const ProfitCalculator = () => {
             </div>
             <div className="w-full mt-6">
                 <div className="flex justify-between text-sm mb-2">
-                    <button className="bg-gradient-to-r  from-[#034a77] to-[#0c162b] text-sm shadow-lg text-white py-1.5 px-10 rounded-lg hover:scale-105 transition-transform">
+                    <button className="rounded-3xl border font-semibold border-primary bg-gradient-to-r from-[#096180] to-[#0a4280] text-sm shadow-lg text-white py-1.5 px-10 hover:scale-105 transition-transform">
                         {clientCount} Client{clientCount > 1 ? "s" : ""}
                     </button>
                 </div>

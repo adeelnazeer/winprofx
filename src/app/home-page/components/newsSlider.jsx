@@ -47,7 +47,7 @@ const NewsCarousel = () => {
         <div className="inner-container border-b border-b-[#3e4353] mx-auto py-10 text-white flex justify-center items-center">
             <div className="w-full text-center">
                 {/* Heading Section */}
-                <h2 className="text-3xl font-bold text-left mb-4">News & Insights</h2>
+                <h2 className="text-3xl font-bold text-left mb-4 text-primary">News <span className="text-white"> & </span> Insights</h2>
                 <p className="text-sm text-left font-normal mb-10">
                     Stay informed with our latest market updates and expert insights,
                     empowering you to<br /> make well-informed decisions in the world of

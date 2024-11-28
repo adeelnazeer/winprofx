@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ title, para, icon }) => {
     return (
         <div className="relative">
-            <div className="bg-gradient-to-b from-[#034a77] via-[#0a2642] to-[#0d1428] p-6 rounded-2xl">
+            <div className="bg-gradient-to-b from-[#132b3c] via-[#0a2b42] to-[#0b1120] p-6 rounded-2xl">
                 <div className="flex items-center justify-center mb-4">
                     <img src={icon} alt="Open an Account" className="h-12" />
                 </div>
@@ -34,7 +34,7 @@ const HowToStart = () => {
 
                 {/* Button */}
                 <div className="mt-10">
-                    <button className="bg-gradient-to-r from-[#034a77] to-[#0c162b] text-white py-3 px-8 rounded-lg hover:shadow-lg transition-transform">
+                    <button className="rounded-3xl border font-semibold border-primary from-[#096180] to-[#0a4280] text-white py-3 px-8 hover:shadow-lg transition-transform">
                         Open an Account
                     </button>
                 </div>
